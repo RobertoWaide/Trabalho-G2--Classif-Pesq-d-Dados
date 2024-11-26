@@ -188,7 +188,7 @@ def menu():
                     motor.adicionar_jogo(Jogo(jogo_id, exemplo["titulo"], exemplo["desenvolvedor"], exemplo["preco"], exemplo["generos"]))
                 print("\nColeção Dark Souls™ adicionada!")
                 
-            elif opcao == "4":
+            elif opcao == "5":
                 preco_min = int(input("\nDigite o preço mínimo: "))
                 preco_max = int(input("Digite o preço máximo: "))
                 jogos = motor.busca_por_faixa_preco(preco_min, preco_max)
